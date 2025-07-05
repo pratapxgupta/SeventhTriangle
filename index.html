@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collection Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="header-title">All Products</h1>
+    </header>
+
+    <main class="main-content">
+      <section id="empty-state" class="empty-state">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/4076/4076500.png"
+          alt="empty box"
+          class="empty-state-img"
+        />
+        <h2 class="empty-state-title">
+          Oops... looks like the shelves are empty!
+        </h2>
+        <p class="empty-state-text">
+          Smash that "Load Products" button to fix this tragic situation.
+        </p>
+        <button id="load-btn" class="primary-btn">Load Products</button>
+      </section>
+
+      <section id="product-section" class="product-section hidden">
+        <div class="product-header">
+          <div id="product-count" class="product-count">0 Products</div>
+          <div class="sort-wrapper">
+            <select id="sort-select" class="sort-select">
+              <option value="">Sort By</option>
+              <option value="asc">Price: Low to High</option>
+              <option value="desc">Price: High to Low</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="product-container" class="product-list"></div>
+      </section>
+
+      <div id="error-message" class="error-message hidden">
+        Failed to load products.
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
