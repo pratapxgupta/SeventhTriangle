@@ -27,7 +27,7 @@ This is a responsive product collection page for a fictional e-commerce snowboar
 
 4. **Basic Styling**
    - Applied responsive CSS to make the layout work on desktop and mobile
-   - Used Flexbox/Grid for layout and spacing
+   - Used Flexbox for layout and spacing
    - Styled product cards with clean visual design
 
 5. **Sort Functionality**
@@ -44,15 +44,15 @@ This is a responsive product collection page for a fictional e-commerce snowboar
 
 8. **Deployed to Vercel**
    - Pushed code to a private GitHub repo
-   - Deployed the live project via [Vercel](https://vercel.com/)
+   - Deployed the live project via https://seventh-triangle.vercel.app/
    - Shared deployment link and repository access as required
 
 ---
 
 ## 🧪 Live Preview
 
-🔗 [Live Site](https://your-project-name.vercel.app)  
-*(Replace with your actual live URL)*
+🔗 [Live Site] https://seventh-triangle.vercel.app/  
+
 
 ---
 
