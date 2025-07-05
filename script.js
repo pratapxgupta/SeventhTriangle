@@ -75,7 +75,7 @@ sortDropdown.addEventListener("change", () => {
     const priceDesc = parseFloat(b.variants?.[0]?.price || 0);
     return sortDropdown.value === "asc"
       ? priceAsc - priceDesc
-      : priceAsc - priceDesc;
+      : priceDesc - priceAsc;
   });
 
   renderProducts(sorted);
